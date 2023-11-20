@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opendoor</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <nav class="flex justify-between items-center px-5 py-3">
+      <div class="flex gap-3">
+        <button>
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 6H21M3 12H21M3 18H21"
+              stroke="#D6D9E4"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <img class="w-28 object-contain" src="assets/logo.png" alt="" />
+      </div>
+      <ul class="flex gap-3 absolute left-1/2 transform -translate-x-1/2">
+        <li>
+          <a href="">Sell</a>
+        </li>
+        <li>
+          <a href="">Buy</a>
+        </li>
+        <li>
+          <a href="">Finance</a>
+        </li>
+      </ul>
+      <button class="text-blue font-bold">Sign In</button>
+    </nav>
+    <section class="relative flex justify-center" style="height: 70vh">
+      <img
+        class="absolute border-x-[20px] border-white h-full w-full object-cover object-top rounded-bl-[110px]"
+        src="https://images.unsplash.com/photo-1596976815495-b3f4d59d26dc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+      <div class="w-full max-w-screen-2xl px-24">
+        <div class="relative w-7/12 top-32 flex flex-col items-start">
+          <h1 class="font-bold text-5xl mb-8">
+            Sell your house in Los Angeles from the comfort of your couch
+          </h1>
+
+          <div class="bg-white flex justify-between p-2 rounded-lg w-full mb-4">
+            <input
+              type="text"
+              placeholder="Enter your home adress"
+              class="w-full"
+            />
+            <button
+              class="bg-blue text-white font-semibold py-3 px-5 rounded-lg shrink-0"
+            >
+              Get my free offer
+            </button>
+          </div>
+          <p class="font-normal text text-base">
+            Focus on buying your next home, not selling your current one.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="flex justify-center mt-14">
+      <div class="w-full max-w-screen-2xl px-24 flex justify-between">
+        <div class="flex flex-col gap-3 w-[25%]">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M7.89717 5.7C7.34617 6.113 7.09717 6.608 7.09717 7.07C7.09717 7.533 7.34617 8.028 7.89717 8.442C8.44917 8.856 9.25717 9.142 10.1922 9.142C10.4574 9.142 10.7117 9.24736 10.8993 9.43489C11.0868 9.62243 11.1922 9.87678 11.1922 10.142C11.1922 10.4072 11.0868 10.6616 10.8993 10.8491C10.7117 11.0366 10.4574 11.142 10.1922 11.142C8.86617 11.142 7.62717 10.74 6.69717 10.042C5.76717 9.344 5.09717 8.304 5.09717 7.071C5.09717 5.837 5.76717 4.797 6.69717 4.099C7.62717 3.402 8.86717 3 10.1922 3C12.2452 3 14.1862 3.983 14.9582 5.62C15.0142 5.73885 15.0462 5.86756 15.0525 5.99879C15.0588 6.13003 15.0391 6.26121 14.9947 6.38485C14.9502 6.50849 14.8819 6.62217 14.7935 6.7194C14.7052 6.81662 14.5985 6.89549 14.4797 6.9515C14.3608 7.00751 14.2321 7.03956 14.1009 7.04583C13.9696 7.05209 13.8385 7.03245 13.7148 6.98801C13.5912 6.94358 13.4775 6.87523 13.3803 6.78686C13.283 6.6985 13.2042 6.59185 13.1482 6.473C12.7982 5.726 11.7062 5 10.1932 5C9.25817 5 8.44917 5.286 7.89717 5.7Z"
+              fill="black"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.157 14.583C12.708 14.17 12.956 13.675 12.956 13.213C12.956 12.75 12.708 12.254 12.156 11.841C11.605 11.427 10.796 11.141 9.862 11.141C9.59678 11.141 9.34243 11.0356 9.15489 10.8481C8.96736 10.6606 8.862 10.4062 8.862 10.141C8.862 9.87578 8.96736 9.62143 9.15489 9.43389C9.34243 9.24636 9.59678 9.141 9.862 9.141C11.188 9.141 12.427 9.543 13.357 10.241C14.287 10.939 14.956 11.979 14.956 13.212C14.956 14.445 14.287 15.486 13.356 16.183C12.426 16.881 11.188 17.283 9.862 17.283C7.809 17.283 5.867 16.3 5.096 14.662C4.98289 14.4221 4.9697 14.1471 5.05934 13.8975C5.14898 13.6479 5.33411 13.4441 5.574 13.331C5.81389 13.2179 6.08889 13.2047 6.3385 13.2943C6.58811 13.384 6.79189 13.5691 6.905 13.809C7.257 14.557 8.349 15.283 9.862 15.283C10.797 15.283 11.605 14.997 12.157 14.583ZM10 1C10.2652 1 10.5196 1.10536 10.7071 1.29289C10.8946 1.48043 11 1.73478 11 2V3C11 3.26522 10.8946 3.51957 10.7071 3.70711C10.5196 3.89464 10.2652 4 10 4C9.73478 4 9.48043 3.89464 9.29289 3.70711C9.10536 3.51957 9 3.26522 9 3V2C9 1.73478 9.10536 1.48043 9.29289 1.29289C9.48043 1.10536 9.73478 1 10 1Z"
+              fill="black"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10 16C10.2652 16 10.5196 16.1054 10.7071 16.2929C10.8946 16.4804 11 16.7348 11 17V18C11 18.2652 10.8946 18.5196 10.7071 18.7071C10.5196 18.8946 10.2652 19 10 19C9.73478 19 9.48043 18.8946 9.29289 18.7071C9.10536 18.5196 9 18.2652 9 18V17C9 16.7348 9.10536 16.4804 9.29289 16.2929C9.48043 16.1054 9.73478 16 10 16Z"
+              fill="black"
+            />
+          </svg>
+
+          <h2 class="text-xl font-bold">Competitive cash offer</h2>
+          <p class="text-base">
+            Get a free offer in 24 hours with no risk of financing fall-through.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3 w-[25%]">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 16 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 16H5V10H11V16H14V7L8 2.5L2 7V16ZM0 18V6L8 0L16 6V18H9V12H7V18H0Z"
+              fill="black"
+            />
+          </svg>
+          <h2 class="text-xl font-bold">Competitive cash offer</h2>
+          <p class="text-base">
+            Get a free offer in 24 hours with no risk of financing fall-through.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3 w-[25%]">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 4H10C9.46957 4 8.96086 4.21071 8.58579 4.58579C8.21071 4.96086 8 5.46957 8 6V10L6 12L8 14V18C8 18.5304 8.21071 19.0391 8.58579 19.4142C8.96086 19.7893 9.46957 20 10 20H22C23.11 20 24 19.11 24 18V6C24 4.89 23.11 4 22 4ZM22 18H10V6H22V18ZM4 8H2V2H4V8ZM2 16H4V22H2V16ZM5 12C5 13.11 4.11 14 3 14C2.60444 14 2.21776 13.8827 1.88886 13.6629C1.55996 13.4432 1.30362 13.1308 1.15224 12.7654C1.00087 12.3999 0.96126 11.9978 1.03843 11.6098C1.1156 11.2219 1.30608 10.8655 1.58579 10.5858C1.86549 10.3061 2.22186 10.1156 2.60982 10.0384C2.99778 9.96126 3.39992 10.0009 3.76537 10.1522C4.13082 10.3036 4.44318 10.56 4.66294 10.8889C4.8827 11.2178 5 11.6044 5 12ZM15 15.08L12.25 12.08L13.41 10.92L15 12.5L18.59 8.92L19.75 10.33L15 15.08Z"
+              fill="black"
+            />
+          </svg>
+
+          <h2 class="text-xl font-bold">Competitive cash offer</h2>
+          <p class="text-base">
+            Get a free offer in 24 hours with no risk of financing fall-through.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex justify-center mt-20">
+      <div class="w-full max-w-screen-2xl px-24 flex justify-between gap-8">
+        <div class="w-1/3">
+          <div>
+            <img class="rounded-full w-24 mt-36" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJ6EuZ09YukuoaTmqEXOPYBkTc7y8eRJOCh4j40of23tIvcOHF" alt="" />
+            <p class="mt-14 text-lg">
+              Opendoor's offer came in right near our appraisal, but we never
+              had to list the house or do showings. For the kind of value.
+              Opendoor gives you, it's just a no-brainer.
+            </p>
+            <p class="mt-6 font-bold text-sm">Adam Leon</p>
+            <p class="font-bold text-sm">Sold to Opendoor</p>
+          </div>
+          <img class="mt-56 aspect-[2/3] object-cover rounded-lg" src="https://plus.unsplash.com/premium_photo-1681031465676-995faaaac5bf?q=80&w=1444&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div class="w-2/3">
+          <h3 class="font-bold text-4xl">No showings, no stress. Get an instant offer, compare options and sell safely.</h3>
+          <img class="mt-20 rounded-lg aspect-[4/5]" src="https://plus.unsplash.com/premium_photo-1664303906236-057fc3eb9fc3?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+          <div class="flex justify-center my-24">
+            <div class="w-1/2">
+              <p class="font-bold text-2xl">Get in touch with our local staff</p>
+              <p class="mt-8 font-medium">Email us</p>
+              <a class="text-2xl text-blue font-bold" href="mailto:lax@opendoor.com">lax@opendoor.com</a>
+              <p class="mt-8 font-medium">Call us</p>
+              <a class="text-2xl text-blue font-bold" href="phoneto:6263527075">626-352-7075</a>
+              <p class="font-light text-sm">Customer service - (6am-7pm PT)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
